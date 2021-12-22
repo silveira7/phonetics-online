@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Pesquisa sobre a percepção da fala em São Bernardo do Campo</title>
+    <meta name="description" content="Este questionário faz parte de uma pesquisa que busca investigar a percepção da fala em São Bernardo do Campo. Não levará mais do que cinco minutos e sua participação nos ajudará a obter um conjunto robusto de dados.">
+    <meta name="author" content="Pesquisa sobre a percepção da fala em São Bernardo do Campo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        var randomlinks=new Array()
+        randomlinks[0]="qst1.html"
+        randomlinks[1]="qst2.html"
+        randomlinks[2]="qst3.html"
+        randomlinks[3]="qst4.html"
+        randomlinks[4]="qst5.html"
+        randomlinks[5]="qst6.html"
+        function randomlink(){
+                    window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+                }
+    </script>
+
+</head>
+
+<body onload="randomlink();">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

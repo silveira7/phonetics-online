@@ -1,0 +1,167 @@
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+@media screen and (max-width: 466px) {
+    body {
+        font-size: 0.65em;
+    }
+}
+
+/* xs < 768 */
+@media screen and (min-width: 467px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    h4 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    h3 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    h5 {
+        font-size: .9em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    h6 {
+        font-size: .8em;
+    }
+}
+
+@media screen and (min-width: 0) {
+    p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 266px) {
+    .reescutar {
+        font-size: 0.8em;
+    }
+}
+
+/* xs < 768 */
+@media screen and (min-width: 467px) {
+    .reescutar {
+        font-size: 0.8em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .reescutar {
+        font-size: 0.8em;
+    }
+}
+
+p {
+  margin: 0 10px 0 0;
+}
+
+h2 {
+  margin: 20px 0 20px 0;
+}
+
+button {
+  margin: 25px 0 0 0;
+}
+
+audio {
+  margin: 10px 0 25px 0;
+}
+
+p {
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  hyphens: manual;
+}
+
+
+.control:checked ~ .conditional,
+			#immigrant:checked ~ .conditional,
+			#required-2:checked ~ .conditional
+			#option-2:checked ~ .conditional {
+				clip: auto;
+				height: auto;
+				margin: 0 0 0 0;
+				overflow: visible;
+				position: static;
+				width: 100%;
+			}
+
+			.control:not(:checked) ~ .conditional,
+			#immigrant:not(:checked) ~ .conditional,
+			#required-2:not(:checked) ~ .conditional,
+			#option-2:not(:checked) ~ .conditional {
+				border: 0;
+				clip: rect(0 0 0 0);
+				height: 1px;
+				margin: -1px;
+				overflow: hidden;
+				padding: 0;
+				position: absolute;
+				width: 1px;
+			}
+
+li {
+  list-style: none;
+}
+
+#a {
+  padding: -30em 0 40px 0;
+}
+
+.reescutar {
+  margin: 0 0 -10px 0;
+}
+
+h3 {
+  color: #303030;
+}
+
+h5 {
+  color: #303030;
+}
+
+h6 {
+  color: #303030;
+}
